@@ -1,0 +1,56 @@
+/* TAG SELECTOR */
+body {
+    font-family:Arial, sans-serif;
+}
+
+/* CLASS SELECTOR */
+.hero {
+    height: 100vh;
+    background: linear-gradient(to right, #0bf3dbba, #0bf3dbba);
+}
+
+.about-section {
+     height: 100vh;
+     width: 100vh;
+    background: linear-gradient(to right, #0bf3dbba, #0bf3dbba);
+}
+
+.skills-section {
+    height: 100vh;
+     width: 100vh;
+    background: linear-gradient(to right, #0bf3dbba, #0bf3dbba);
+}
+
+.contact-section {
+    height: 100vh;
+     width: 100vh;
+     background: linear-gradient(to right, #0bf3dbba, #0bf3dbba);
+}
+
+/* ID SELECTOR */
+#output {
+    color: #1a1a1a;
+    font-weight: bold;
+}
+
+/* PSEUDO CLASS */
+button:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+/* CUSTOM COMPONENT */
+.skill-box {
+    border-radius: 10px;
+    background: white;
+    transition: 0.3s;
+}
+
+.skill-box:hover {
+    transform: translateY(-7px);
+}
+
+/* Highlight text */
+.highlight {
+    color: #d9534f;
+}
